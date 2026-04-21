@@ -1,9 +1,9 @@
 {
   "fileName": "URCL.json",
   "name": "URCL",
-  "version": "2026.0.0",
+  "version": "2026.0.5",
   "frcYear": "2026",
-  "uuid": "84246d17-a797-4d1e-bd9f-c59cd8d2477c",
+  "uuid": "84246d17-a797-4d26-b523-9e898d11a105",
   "mavenUrls": [
     "https://frcmaven.wpi.edu/artifactory/littletonrobotics-mvn-release/"
   ],
@@ -12,52 +12,24 @@
     {
       "groupId": "org.littletonrobotics.urcl",
       "artifactId": "URCL-java",
-      "version": "2026.0.0"
+      "version": "2026.0.5"
     }
   ],
-  "jniDependencies": [
-    {
-      "groupId": "org.littletonrobotics.urcl",
-      "artifactId": "URCL-driver",
-      "version": "2026.0.0",
-      "skipInvalidPlatforms": true,
-      "isJar": false,
-      "validPlatforms": [
-        "windowsx86-64",
-        "linuxx86-64",
-        "linuxathena",
-        "osxuniversal"
-      ]
-    }
-  ],
+  "jniDependencies": [],
   "cppDependencies": [
     {
       "groupId": "org.littletonrobotics.urcl",
       "artifactId": "URCL-cpp",
-      "version": "2026.0.0",
+      "version": "2026.0.5",
       "libName": "URCL",
       "headerClassifier": "headers",
-      "sharedLibrary": false,
+      "sourcesClassifier": "sources",
+      "sharedLibrary": true,
       "skipInvalidPlatforms": true,
       "binaryPlatforms": [
+        "linuxathena",
         "windowsx86-64",
         "linuxx86-64",
-        "linuxathena",
-        "osxuniversal"
-      ]
-    },
-    {
-      "groupId": "org.littletonrobotics.urcl",
-      "artifactId": "URCL-driver",
-      "version": "2026.0.0",
-      "libName": "URCLDriver",
-      "headerClassifier": "headers",
-      "sharedLibrary": false,
-      "skipInvalidPlatforms": true,
-      "binaryPlatforms": [
-        "windowsx86-64",
-        "linuxx86-64",
-        "linuxathena",
         "osxuniversal"
       ]
     }
