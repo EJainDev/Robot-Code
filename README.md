@@ -1,2 +1,2 @@
 # Robot-Code
-Team 467 2026 competition robot
+An unofficial C++ rewrite of our codebase for our REBUILT robot *OPUS*.
