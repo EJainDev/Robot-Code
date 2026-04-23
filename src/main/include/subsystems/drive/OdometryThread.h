@@ -1,3 +1,5 @@
+#pragma once
+
 #include "units/time.h"
 #include "util/ArrayBlockingQueue.h"
 #include <ctre/phoenix6/CANBus.hpp>
